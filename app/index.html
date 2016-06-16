@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Tables</title>
+    <link rel="stylesheet"
+          href="css/main.css">
+</head>
+<body>
+<form action=""
+      method="post">
+    <table class="form-table">
+        <thead>
+        <tr>
+            <td colspan="2"><h2>Обратная связь</h2></td>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td colspan="2"><h2>&copy; указывайте только подлинные данные</h2></td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td><label for="name">Имя:</label></td>
+            <td><input type="text"
+                       name="name"
+                       id="name"
+                       placeholder="имя">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="famil">Фамилия:</label></td>
+            <td><input type="text"
+                       name="famil"
+                       id="famil"
+                       placeholder="фамилия">
+            </td>
+        </tr>
+        <tr>
+            <td>Пол:</td>
+            <td><input type="radio"
+                       name="sex"
+                       id="man">
+                <label for="man">Муж.</label>
+                <input type="radio"
+                       name="sex"
+                       id="woman">
+                <label for="woman">Жен.</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="select">Тема вопроса:</label></td>
+            <td><select name="select"
+                        id="select">
+                <option value="">выберите тему</option>
+                <option value="">не работает сайт</option>
+                <option value="">лежит хостинг</option>
+                <option value="">не отправляются письма</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2>
+                    <label for="textarea">Текст сообщения:</label>
+                </h2>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><textarea name="textarea"
+                                      id="textarea"
+                                      cols="30"
+                                      rows="10"
+                                      placeholder="Сообщение"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit"
+                                   value="Отправить"></td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+<br>
+<hr>
+<br>
+
+<table class="pure-table">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>1</th>
+        <td>&lttd&gt&lt/td&gt</td>
+        <td>&lttd&gt&lt/td&gt</td>
+        <td>&lttd&gt&lt/td&gt</td>
+        <td rowspan="3"
+            colspan="3">&lttd rowspan="3" colspan="3"&lt/td&gt
+        </td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td rowspan="2">
+            &lt;td rowspan="2">&lt;/td&gt;
+        </td>
+        <td>&lttd&gt&lt/td&gt</td>
+        <td>&lttd&gt&lt/td&gt</td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td>&lttd&gt&lt/td&gt</td>
+        <td>&lttd&gt&lt/td&gt</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<hr>
+<br>
+</body>
+</html>

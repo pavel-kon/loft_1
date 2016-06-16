@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    display: table;
+}
+
+form {
+    display: block;
+}
+
+.form-table {
+    min-width: 600px;
+    width: 80%;
+}
+
+.form-table thead {
+    background-color: #242A30;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: .83em 0;
+}
+
+.form-table tbody {
+    background-color: #d9e0e7;
+}
+
+.form-table td[colspan="2"] {
+    text-align: center;
+}
+
+.form-table tbody h2 {
+    font-size: .9em;
+}
+
+.form-table input[type="text"], textarea {
+    border: 3px solid #242A30;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    line-height: 1.5em;
+}
+
+.form-table input[type="text"] {
+    width: 250px;
+}
+
+.form-table textarea {
+    width: 400px;
+    height: 300px;
+    resize: none;
+}
+
+.form-table input {
+    margin: 0.3em auto;
+}
+
+.form-table input[type="text"]:focus, textarea:focus {
+    border: 3px solid red;
+}
+
+.form-table input[type="submit"] {
+    display: block;
+    color: white;
+    background-color: rgb(192, 57, 43);
+    padding: 1.4em 5.6em;
+    border-radius: .4em;
+    text-transform: lowercase;
+    border: 0;
+}
+
+.form-table input[type="submit"]:hover {
+    background-color: rgba(192, 57, 43, 0.8);
+    transition: background 0.4s ease;
+    border: 0;
+    cursor: pointer;
+}
+
+.form-table tfoot {
+    background-color: rgb(44, 138, 200);
+    color: #ffffff;
+    text-align: center;
+    font-size: .6em;
+    text-decoration: underline;
+}
+
+/***********************
+      pure-table
+************************/
+
+.pure-table {
+    border: 1px solid rgba(134, 134, 134, 1);
+    width: 500px;
+}
+
+.pure-table tbody, td {
+    vertical-align: middle;
+}
+
+.pure-table tr > td[rowspan] {
+    border: 2px solid rgba(255, 0, 10, 1);
+}
+
+.pure-table tr > td[colspan] {
+    border: 2px solid rgba(40, 85, 255, 1);
+}
+
+.pure-table td, th {
+    border: 1px solid rgba(134, 134, 134, 1);
+}
+
+*{
+    box-sizing: border-box;
+}
